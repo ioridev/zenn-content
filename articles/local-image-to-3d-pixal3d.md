@@ -7,7 +7,7 @@ published: true
 publication_name: "bestat"
 ---
 
-Tripoでの３D生成→フロンティアモデルで編集みたいなワークフローが流行っている（？）
+AI画像生成→Tripoでの３D生成→フロンティアモデルで編集みたいなワークフローが流行っている（？）
 が、契約するサブスクAIが増え続ける一方なのでローカルAIで同じことができないか試してみた。
 
 @[tweet](https://x.com/iori_sf/status/2104837198583660633?s=20)
