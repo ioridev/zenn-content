@@ -1,14 +1,18 @@
 ---
-title: "Tripoなしでローカル3Dモデル生成を試してみた（Pixal3D + Qwen-Image）"
+title: "課金したくないのでローカル3Dモデル生成を試してみた（Pixal3D + Qwen-Image）"
 emoji: "🤖"
 type: "tech"
 topics: ["comfyui", "生成ai", "3dcg", "qwen", "vrchat"]
 published: false
 ---
 
-画像から3Dモデルを作るなら Tripo みたいなクラウドのサービスが手軽だけど、VRChat のワールドに置く小物を何十個も作って見比べたいとなると、クレジットの残りや利用条件が気になってくる。
+Tripoでの３D生成→フロンティアモデルで編集みたいなワークフローが流行っている（？）
+が、契約するサブスクAIが増え続ける一方なのでローカルAIで同じことができないか試してみた。
 
-家に GPU サーバーがあるので、画像→3D をローカルで回すとどこまで使えるのか試した。やりたいのはこういうこと。
+@[tweet](https://x.com/iori_sf/status/2104837198583660633?s=20)
+
+
+やりたいのはこういうこと。
 
 ![](/images/local-image-to-3d-pixal3d/flow-chibi-robot.jpg)
 *絵を1枚用意して、4方向の絵にして、3Dモデルにする（この2頭身ロボットは、Codex に4面図をまとめて描かせた）*
