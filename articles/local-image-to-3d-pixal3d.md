@@ -13,6 +13,10 @@ published: false
 ![](/images/local-image-to-3d-pixal3d/flow-chibi-robot.jpg)
 *絵を1枚用意して、4方向の絵にして、3Dモデルにする（この2頭身ロボットは、Codex に4面図をまとめて描かせた）*
 
+できたモデルはこれ。ドラッグでぐるぐる回せる。
+
+@[codepen](https://codepen.io/jvnkmdto-the-scripter/pen/YPZEmEb?default-tab=result)
+
 やったことはこのへん
 
 - TencentARC の Pixal3D を ComfyUI で動かして、画像から PBR テクスチャ付きの GLB を作る
@@ -248,6 +252,10 @@ pose, arms held slightly away from the body, feet shoulder-width apart, full bod
 | Qwen-2.1 4面図 | 背中の装備が大きな青い箱になって、推測が強め |
 | Edit-2511 4面＋透過 | 形はいいけど、生成した向きに赤い差し色が増えて、背中がごちゃつく |
 
+一番きれいだった Codex 4面図版はこれ。
+
+@[codepen](https://codepen.io/jvnkmdto-the-scripter/pen/bNqYXae?default-tab=result)
+
 背面を抜いた3方向でも作ってみた。
 
 ![](/images/local-image-to-3d-pixal3d/robot-results-3view.jpg)
@@ -281,6 +289,10 @@ Pixal3D の出力はそのまま置くとゲームには重いので、手を入
 
 ![](/images/local-image-to-3d-pixal3d/pom-clean.jpg)
 *背中の黒にじみを消した前後*
+
+塗り直したあとのポメはこれ。
+
+@[codepen](https://codepen.io/jvnkmdto-the-scripter/pen/KwWyOZm?default-tab=result)
 
 Unity は GLB をそのまま読めないので、Blender で FBX にして取り込んだ。ORM テクスチャ（AO・ラフネス・メタリック）は、Standard シェーダー用のメタリック／スムースネスに詰め替えている。
 
