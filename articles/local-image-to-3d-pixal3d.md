@@ -191,7 +191,7 @@ framing, colours, fur and gills, nothing added or changed. Transparent backgroun
 4面図も1枚で描ける。ただ出力のサイズが最初に渡した画像に合わせられるので、1枚目に白いキャンバス、2枚目に元絵を渡した。4面図1枚に9〜10分かかる。一方、1方向ずつ「正面」などと頼むと、顔だけこっちを向いた斜めの絵になりがちだった。
 
 :::message alert
-Qwen-Image-2.1 のライセンスは研究向けの Qwen Research License（Qwen-Image-Edit-2511 は Apache 2.0）。作ったものを公開・販売するなら、先に条件を確認したほうがいい。
+Qwen-Image-2.1 のライセンスは Qwen Research License で、研究・評価目的にしか使えないので注意（商用で使うには別途ライセンスが必要）。Qwen-Image-Edit-2511 のほうは Apache 2.0。
 :::
 
 ## ポメラニアン×ウーパールーパーで比較
