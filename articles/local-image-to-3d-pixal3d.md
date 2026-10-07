@@ -3,7 +3,8 @@ title: "課金したくないのでローカル3Dモデル生成を試してみ�
 emoji: "🤖"
 type: "tech"
 topics: ["comfyui", "生成ai", "3dcg", "qwen", "vrchat"]
-published: false
+published: true
+publication_name: "bestat"
 ---
 
 Tripoでの３D生成→フロンティアモデルで編集みたいなワークフローが流行っている（？）
