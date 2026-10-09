@@ -148,6 +148,8 @@ def exchange(method, arguments):
 
 3D ビュワーなので、AI が結果を目で見られないと話にならない。`execute_script` は、スクリプトが終わったら画面を撮って、テキストと画像を1つの `CallToolResult` で返す。
 
+画像を返す価値は、Vision がついた LLM が効率よく作業できることだけじゃない。作業している人間も、LLM のチャット UI でそのまま作業結果を確認できる。指示して、結果を目で見て、また指示する、という流れがチャットの中で回せる。
+
 ```python
 return CallToolResult(content=[
     TextContent(type="text", text=json.dumps(result, ensure_ascii=False)),
