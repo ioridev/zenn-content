@@ -3,7 +3,7 @@ title: "Flutter DesktopアプリにMCP連携をつけてみた"
 emoji: "🧊"
 type: "tech"
 topics: ["flutter", "mcp", "python", "claudecode", "windows"]
-published: false
+published: true
 publication_name: "bestat"
 ---
 
