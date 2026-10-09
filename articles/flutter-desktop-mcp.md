@@ -332,7 +332,7 @@ Flutter 側は `flutter drive --profile` の integration test で、本物の画
 
 ## 雑感
 
-つーかComputer Useでよくね感がヤバいが、AIに聞いたらモデルの境界を取得して隣に配置する、といった処理は、画面クリックだけでやるより直接的でComputer Useと変更して使う価値がある。らしい
+つーかComputer Useでよくね感がヤバいが、AIに聞いたらモデルの境界を取得して隣に配置する、といった処理は、画面クリックだけでやるより直接的でComputer Useと併用して使う価値がある。らしい
 
 ## 参考
 
